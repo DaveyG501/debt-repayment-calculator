@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import DebtAccountList from './DebtAccountList.js'
 
 function App() {
   return (
     <div className="App">
-      <h1>Howdy Ya'll!</h1>
+      <DebtAccountList></DebtAccountList>
     </div>
   );
 }
